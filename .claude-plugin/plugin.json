@@ -1,0 +1,16 @@
+{
+  "name": "working-with-ai",
+  "version": "0.1.0",
+  "description": "Working-with-AI craft: bilateral covenant pattern, stewardship and autonomy rubrics, the grindability/oracle discipline, the foreman (boss-never-implements) multi-agent pattern, and finish-what-you-start delegation. A shareable, genericized toolkit for collaborating with AI agents — the method behind the work, offered as a template.",
+  "author": {
+    "name": "cpuchip"
+  },
+  "homepage": "https://cpuchip.net",
+  "keywords": [
+    "ai-collaboration",
+    "covenant",
+    "agent-orchestration",
+    "stewardship",
+    "verification"
+  ]
+}

@@ -1,0 +1,5 @@
+# public-workspace is the shareable toolkit — nothing personal enters here.
+# The sorting oracle (workspace-2.0) will enforce this at commit time; until then,
+# keep it clean by hand.
+.tmp/
+*.log
