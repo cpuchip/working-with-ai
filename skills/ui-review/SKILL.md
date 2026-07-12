@@ -1,19 +1,19 @@
 ---
 name: ui-review
-description: Structured fresh-eyes design review of any UI — screenshot-driven critique that produces ranked, concrete findings tied to the ui-craft lexicon. Use when the user asks to review/critique/improve a UI, says something "looks off / feels bolted on / isn't working", before shipping any user-facing surface, or after substantive UI changes. Works on live URLs (playwright-cli), local dev servers, and screenshots they paste. Run any deterministic UI-lint oracle you have FIRST, then the judgment passes. Companion: ui-craft (the system the review measures against), tufte (if charts are present).
+description: Structured fresh-eyes design review of any UI — screenshot-driven critique that produces ranked, concrete findings in a shared feel-word vocabulary (clean, sharp, cluttered, calm…). Use when the user asks to review/critique/improve a UI, says something "looks off / feels bolted on / isn't working", before shipping any user-facing surface, or after substantive UI changes. Works on live URLs (playwright-cli), local dev servers, and screenshots they paste. Run any deterministic UI-lint oracle you have FIRST, then the judgment passes. Companion: your visual-design system if you keep one, tufte (if charts are present).
 ---
 
 # ui-review — the fresh-eyes critique loop
 
 A review is measurements first, judgment second, and every finding lands as a **concrete fix**
 ("padding 12→16 on `.card`, kill the inner border"), never as "improve the visual hierarchy."
-Findings cite the lexicon term they serve — that's how the shared vocabulary compounds.
+Findings cite the feel-word they serve (clean, sharp, calm, dense…) — that's how a shared vocabulary compounds.
 
 ## Protocol
 
 ### 0. Oracle first
 ```sh
-python scripts/ui-lint/ui_lint.py <url>          # the deterministic floor
+<your-ui-lint-command> <url>   # any deterministic lint you maintain (none? skip to judgment passes)
 ```
 Machine findings (contrast, tap targets, off-scale spacing, palette sprawl…) come free —
 never spend judgment on what the oracle already caught. Attach its summary to the review.
@@ -61,17 +61,17 @@ backend (`ERR_CONN_REFUSED` → "Can't reach the server — retrying").
 
 ```markdown
 ## UI review — <surface> (<date>)
-**Oracle:** ui-lint X hard / Y advisory (attached)
+**Oracle:** your-lint X hard / Y advisory (attached — omit if you have no deterministic lint)
 **Verdict in one line:** <e.g. "solid bones, spacing drift + accent sprawl are 80% of the 'off' feeling">
 
 ### Findings (ranked by visual payoff per effort)
 1. **[uncluttered] Card borders → whitespace.** 6 bordered boxes organize what spacing can.
    Fix: kill `.card` border, gap 16→24, keep --shadow-1. (biggest single win)
-2. **[sharp] Body text is n-6 gray on n-1 bg (3.8:1).** Fix: --ink for body, --ink-soft only for meta.
+2. **[sharp] Body text is mid-gray on off-white (3.8:1).** Fix: use the ink/body color token for body text, the softer tone only for meta.
 3. …
 
 ### Knobs I'd turn (summary for steering)
-- borders −6 · accents 3→1 · paddings reconciled to --s-4 · …
+- borders −6 · accents 3→1 · paddings reconciled to one spacing step · …
 
 ### Vocabulary note (one per review)
 "Optical alignment": the play icon is mathematically centered but LOOKS right-shifted —
@@ -82,15 +82,15 @@ triangles need a 1–2px optical nudge. Where it applies here: …
 
 - **Rank by payoff-per-effort** — the top 3 findings should carry most of the "off" feeling.
   A review with 25 equal-weight findings is a review nobody acts on.
-- **Every finding names its lexicon term** — the review teaches the vocabulary as it goes.
+- **Every finding names its feel-word** — the review teaches the vocabulary as it goes.
 - **Fixes are diffs-in-prose** (selector + token + value), so the dev pass is mechanical.
 - **One vocabulary note per review** — exactly one, so it lands.
 - **Fresh eyes are real**: review the *screenshots*, not the code first — the code biases you
   toward what was intended over what is seen. Code comes second, to locate fixes.
 - If the surface has charts/data viz, run the `tufte` skill's checklist on those specifically.
 - Pre-ship or forms/inputs/motion-heavy surfaces: add a `web-interface-guidelines` rules pass
-  (vendored Vercel rules — interaction-correctness details the lexicon doesn't cover) and, for
+  (vendored Vercel rules — interaction-correctness details feel-words don't cover) and, for
   public-facing pages, a `web-quality-audit` perf/a11y pass. Both report file:line findings
   that merge into this review's ranked list.
 - Re-review after fixes with the same protocol (inverse hypothesis: the finding should be gone
-  in the new screenshot, and ui-lint should stay/turn green).
+  in the new screenshot, and your deterministic lint should stay/turn green).

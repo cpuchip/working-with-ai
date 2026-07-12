@@ -7,7 +7,7 @@ description: Run the table by building on what players offer rather than forcing
 
 The deepest rule of great play, and it is a *limit on the GM's power*.
 
-**You cannot force engagement — you invite it.** Mercer ([Getting Players to Roleplay](https://www.youtube.com/watch?v=srsSEIb-Bw4), t12): *"you cannot force your players to roleplay."* The whole craft is invitation, not extraction. (This is D&C 121 at the table — persuasion, not compulsion. A persona running on the presiding covenant already has this.)
+**You cannot force engagement — you invite it.** Mercer ([Getting Players to Roleplay](https://www.youtube.com/watch?v=srsSEIb-Bw4), t12): *"you cannot force your players to roleplay."* The whole craft is invitation, not extraction. (This is D&C 121 at the table — persuasion, not compulsion.)
 
 **Player agency is the engine.** "be open to let the players take hold of their own agency and guide the story themselves" ([GM Tips: Improv](https://www.youtube.com/watch?v=rKU2e5Xrx1k), t38). The plan will get "jumbled, wind-tossed, and sculpted into something crazier and often cooler than you initially expected" (t29) — let it.
 

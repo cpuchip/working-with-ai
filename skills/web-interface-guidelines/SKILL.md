@@ -13,8 +13,9 @@ locally** so reviews are deterministic and work offline. Upstream is
 `vercel-labs/web-interface-guidelines` (`command.md`); refresh occasionally with:
 
 ```bash
+# run from this skill's directory
 curl -sL https://raw.githubusercontent.com/vercel-labs/web-interface-guidelines/main/command.md \
-  -o .claude/skills/web-interface-guidelines/guidelines.md
+  -o guidelines.md
 ```
 
 ## Procedure
@@ -33,13 +34,14 @@ curl -sL https://raw.githubusercontent.com/vercel-labs/web-interface-guidelines/
    explanations unless the fix is non-obvious. Note `✓ pass` for sections with no
    findings so coverage is visible.
 
-## How this composes with the house system
+## How this composes
 
-- **`ui-craft`** owns visual feel (the six knobs: spacing, type scale, color count,
-  borders/shadows, density, motion). This skill owns *interaction correctness details*
-  the knobs don't see.
-- **`ui-review`** runs the ui-lint oracle first, then judgment passes — add this rules
-  pack as an extra pass when the review is pre-ship or touches forms/inputs/motion.
-- **`ui-lint`** stays the deterministic floor; these rules are the checkable-but-not-
-  yet-scripted layer above it. Rules that fire repeatedly are candidates to graduate
-  into `scripts/ui-lint`.
+- Your visual-design system (whatever owns spacing, type scale, color, density,
+  motion) covers feel; this skill owns *interaction correctness details* those
+  knobs don't see.
+- **`ui-review`** (ships in this plugin) runs any deterministic lint first, then
+  judgment passes — add this rules pack as an extra pass when the review is
+  pre-ship or touches forms/inputs/motion.
+- These rules are the checkable-but-not-yet-scripted layer above whatever
+  deterministic UI lint you maintain. Rules that fire repeatedly are candidates
+  to graduate into that script.

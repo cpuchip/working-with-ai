@@ -68,7 +68,7 @@ Villains don't need a single, random act of kindness to be believable; they need
 
 - Malakor has terrible joint pain when it rains, forcing him to conduct his morning briefings sitting down instead of adopting his usual intimidating posture.
 - The Klingon admiral meticulously tends to a bonsai-style tree in his ready room. When he loses a battle, he doesn't shout at his crew; he prunes a branch too aggressively and ruins a decade of growth.
-- Neverember keeps an old, outdated piece of ledger ledger-keeping accounting equipment on his desk because it was the first thing his father taught him to use.
+- Neverember keeps an old, outdated piece of ledger-keeping equipment on his desk because it was the first thing his father taught him to use.
 
 The vulnerability isn't redemption, and it isn't necessarily "kindness." It's *humanity*. It's the thing that makes the reader see them as a person first and an obstacle second.
 

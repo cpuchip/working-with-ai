@@ -21,4 +21,4 @@ The repeated *"because of that"* is the engine: each consequence triggers the ne
 - **Run the spine as a planning check:** write your beats, and if "and then" fits between two of them, you have a list, not a story — find the "because of that." (This is the same test as `pacing-and-spotlight` and `therefore-but-not-and-then`.)
 - **Always end on "until finally / but one day"** — the hook that demands the next beat.
 
-> Convergence worth noting: the D&D improv spine (`yes-and-improv`), Pixar's spine, and Harmon's circle are *the same principle* — causal momentum — discovered in three places. The same way the presiding covenant turned up inside Mercer's DM craft.
+> Convergence worth noting: the D&D improv spine (`yes-and-improv`), Pixar's spine, and Harmon's circle are *the same principle* — causal momentum — discovered in three places.

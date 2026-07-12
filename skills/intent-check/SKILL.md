@@ -5,7 +5,7 @@ description: Quick intent articulation discipline before starting a new task. Na
 
 # Intent Check
 
-> "For behold, this is my work and my glory—to bring to pass the immortality and eternal life of man." — [Moses 1:39](../../../gospel-library/eng/scriptures/pgp/moses/1.md)
+> "For behold, this is my work and my glory—to bring to pass the immortality and eternal life of man." — [Moses 1:39](https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/1?lang=eng)
 
 God's intent is one sentence. Everything He does optimizes for it. When His agents (His prophets, His angels, His covenant people) act on His behalf, they have that intent loaded — so when situations arise He didn't explicitly script, they still act in His direction.
 
@@ -71,7 +71,7 @@ The most-skipped question and the one that prevents the most scope creep. Naming
 - For a document: "NOT this session: extending the argument into the adjacent framework. The connection is real but a different scope."
 - For research: "NOT this session: evaluate every source the author cites. We're after the binding question's answer."
 
-Non-goals are how you protect the work from becoming everything. "It is not requisite that a man should run faster than he has strength" ([Mosiah 4:27](../../../gospel-library/eng/scriptures/bofm/mosiah/4.md)).
+Non-goals are how you protect the work from becoming everything. "It is not requisite that a man should run faster than he has strength" ([Mosiah 4:27](https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/4?lang=eng)).
 
 ## Output Format
 

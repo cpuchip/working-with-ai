@@ -1,7 +1,7 @@
 {
   "name": "working-with-ai",
   "version": "0.1.0",
-  "description": "Working-with-AI craft: bilateral covenant pattern, stewardship and autonomy rubrics, the grindability/oracle discipline, the foreman (boss-never-implements) multi-agent pattern, and finish-what-you-start delegation. A shareable, genericized toolkit for collaborating with AI agents — the method behind the work, offered as a template.",
+  "description": "Working-with-AI craft: bilateral covenant pattern, stewardship and autonomy rubrics, the grindability/oracle discipline, the foreman (boss-never-implements) multi-agent pattern, and finish-what-you-start delegation. A shareable, genericized toolkit for collaborating with AI agents \u00e2\u20ac\u201d the method behind the work, offered as a template.",
   "author": {
     "name": "cpuchip"
   },
@@ -12,5 +12,6 @@
     "agent-orchestration",
     "stewardship",
     "verification"
-  ]
+  ],
+  "license": "MIT"
 }

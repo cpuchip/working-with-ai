@@ -5,7 +5,7 @@ description: Ground analytical judgment in the actual artifact before rendering 
 
 # Study It Out
 
-> "you must **study it out in your mind**; then you must ask me if it be right." — [D&C 9:8](../../../gospel-library/eng/scriptures/dc-testament/dc/9.md)
+> "you must **study it out in your mind**; then you must ask me if it be right." — [D&C 9:8](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/9?lang=eng)
 
 ## The failure this prevents
 
@@ -37,6 +37,6 @@ If you can't point at the line, you didn't study it out — you guessed. The bur
 Unverified **skepticism** is as ungrounded as unverified **credulity**. Flagging a claim as "tradition," "unsupported," or "presented as fact" *without checking the source* is the same failure as asserting it without reading — you've rendered a verdict from your prior, not the artifact. Verify before you rule, in *either* direction. (Learned live, 2026-06-07: a yt-gospel eval flagged the Wilford Woodruff St. George founders account as "⚠ tradition"; the user pushed; the Church's own 1991 Ensign Q&A and Woodruff's journal documented it plainly. The skeptical ruling was the ungrounded one.)
 
 ## Relation
-- Extends `source-verification` (read-before-quoting) from quotes to judgments.
+- Extends the read-before-quoting discipline from quotes to judgments.
 - The same discipline can be built into automated pipelines as a hard gate: no verdict ships until the evidence of actually reading the artifact is attached.
 - Sibling of the full-context-shepherd lesson and the critic architecture.

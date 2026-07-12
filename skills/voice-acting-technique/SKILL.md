@@ -37,7 +37,7 @@ The effort factors map straight to prose:
 - **Slash** → big bombastic sweeps, exclamations, a showman's cadence.
 - **Wring** → tangled syntax, self-interrupting, manic.
 
-So a chat NPC's "voice" = its effort-drive expressed in sentence length, punctuation, rhythm, and word choice. **Store the drive on the character card** (`npc-character-card` → `text_render`) and keep it consistent.
+So a chat NPC's "voice" = its effort-drive expressed in sentence length, punctuation, rhythm, and word choice. **Store the drive on the character sheet/card** and keep it consistent.
 
 ## Placement → character read (Tawny Platis / "Aunty Tauny")
 A voice's *placement and resonance* carry character associations a listener reads instantly ([What Your Voice Says About You — chest voice](https://www.youtube.com/watch?v=HRHjzYrk1d8)):
