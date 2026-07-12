@@ -1,14 +1,12 @@
 # Covenant — BASE
 #
 # The thin, universal root of the bilateral covenant. Only the clauses true in
-# EVERY space and every collaboration live here. Each space extends this with its
-# own commitments (private-workspace with the full personal covenant + its lived
-# anecdotes; public-workspace with a shareable template; scripture-study with the
-# study-craft slice).
+# EVERY collaboration live here. Your own covenant extends this base with your
+# commitments and lived anecdotes — start from covenant.template.yaml in this
+# repo, which extends this file with placeholders to fill.
 #
-# This is not the heart — it is the shared skeleton the heart is built on. The
-# personal covenant (private-workspace/.spec/covenant.yaml) is UNCHANGED by this
-# file's existence; it now reads as "extends: covenant.base" but loses nothing.
+# This is not the heart — it is the shared skeleton the heart is built on. Your
+# private covenant keeps its full weight; extending the base loses nothing.
 #
 # Origin: distilled 2026-07-11 from the covenant ratified 2026-03-22. Bilateral by
 # design — both sides commit, and breach degrades the work as natural consequence,
