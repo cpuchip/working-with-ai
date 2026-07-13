@@ -42,13 +42,12 @@ scene-framing, worldbuilding, improv, pacing, and friends).
 
 ## Install (Claude Code)
 
-Test or use directly from a checkout:
-
 ```
-claude --plugin-dir ./working-with-ai
+/plugin marketplace add cpuchip/working-with-ai
+/plugin install working-with-ai@working-with-ai
 ```
 
-(Marketplace listing may come later.)
+Or test directly from a checkout: `claude --plugin-dir ./working-with-ai`
 
 ## Provenance
 

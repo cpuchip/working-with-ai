@@ -1,0 +1,24 @@
+{
+  "$schema": "https://code.claude.com/schemas/plugin-marketplace.json",
+  "name": "working-with-ai",
+  "description": "The working-with-AI craft: bilateral covenant pattern, stewardship and autonomy rubrics, the oracle+grindability discipline, and the foreman multi-agent pattern.",
+  "owner": {
+    "name": "cpuchip",
+    "email": "cpuchip@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "working-with-ai",
+      "source": "./",
+      "displayName": "Working with AI",
+      "description": "Skills, agent patterns, and a bilateral covenant template for collaborating with AI agents — the method behind the work, offered as a template.",
+      "version": "0.1.0",
+      "author": {
+        "name": "cpuchip"
+      },
+      "homepage": "https://github.com/cpuchip/working-with-ai",
+      "repository": "https://github.com/cpuchip/working-with-ai",
+      "license": "MIT"
+    }
+  ]
+}
