@@ -34,6 +34,33 @@ because ___."
 - **Fan-out-for-independent-verification** — for *per-unit* checks, parallel
   fresh eyes BEAT one accumulating operator. They are complementary, not rivals.
 
+### The structural argument (stronger than the fatigue one)
+
+Everything above argues from an operator who *tires*. The deeper reason is that a
+rested operator would not help, because the gap is not attention:
+
+> **A person cannot build an instrument aimed at their own blind spot, because the
+> blind spot is precisely where they don't think one is needed.**
+
+Measured on one night's build where eight agents each built gates aimed at their own
+known risks: **every gate was blind in the same direction — toward the sentences its
+author was most confident about.** The engine's gates proved contraction, loop bounds,
+and replay; all green, all true, and blind to a comment that lied, a view that was
+empty, and a constant that made the whole thing winnable in sixty seconds with no
+input from the user at all. One agent's rule for legibility was the single number they
+had published as *arithmetic, not taste* — so it was the one they never re-checked, and
+it held at exactly one screen size.
+
+Every real catch that night came from someone reading **another sphere's** artifact.
+**What makes a second witness *second* is where it stands, not how careful it is** — which
+is why fresh-eyes-per-unit is a structural property of the shape, not a hope about the
+agents you spawn.
+
+And **writing the principle down grants no immunity.** One agent wrote "every oracle I
+built proves the sim is correct, not one proves it's fun" hours before setting the
+constant that proved exactly that. What the sentence bought was the habit of running one
+more measurement, and the habit is what found it.
+
 **Serial-probe, then parallel-scale.** A short serial pass finds the pattern
 (e.g. "the dominant defect is quotes drawn from the wrong edition of the
 source; also check the citations *inside* entries"). Then front-load that

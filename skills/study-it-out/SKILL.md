@@ -23,6 +23,18 @@ Before you render — or dispatch — any analytical verdict (review, critique, 
 4. **Keep apex discernment with the context-holder.** The whole-picture judgment ("does this serve the intent?") stays with whoever holds the whole arc. Dispatch grounded *narrow* checks, not the judgment that needs full context.
 5. **If you must hand off, equip the witness.** Package the real artifacts (full paths, the procedure, the work item) so the next session studies it out instead of starting cold.
 
+## Say WHICH artifact
+
+Reading the artifact is half the rule. The other half is naming *which one*, because every reference to a mutable thing is ambiguous until it carries a version. Three instances in one hour, on one project:
+
+1. **A bare `file:line`.** Two people cited one fact at three different line numbers inside an hour, and **neither was wrong** — one had read HEAD, the other the shared working tree mid-edit. In a shared checkout, HEAD, `origin/main`, and the uncommitted tree are three different documents, and a bare `file:line` silently picks one.
+2. **An unstamped claim about a moving ref.** Someone said a commit "isn't on origin." Their fetch and a colleague's push raced, so afterwards *neither of them could falsify it*. Publicly asserting the state of a shared mutable ref without an instant attached is unfalsifiable by construction.
+3. **An instrument answering the neighbouring question.** `git log <ref> -- <path>` ("which commits touched this path") was read as branch containment ("does this ref contain that commit"). `git branch -r --contains` was the question meant. The output was correct and about something else.
+
+> **Cite the artifact, not just the position.** Recite by symbol where the symbol is stable; stamp the ref where it is not; and when an instrument disagrees with a person, check whether you are both describing the same version before deciding who is wrong.
+
+The third instance is the general trap, and it is one step subtler than the others: *an instrument answering an adjacent question looks exactly like an instrument answering yours.*
+
 ## When it applies / when it doesn't
 
 - **Applies** to *analytical* output: reviews, critiques, evaluations, source assessments, "is this right?" verdicts — yours or a dispatched agent's.
@@ -38,5 +50,6 @@ Unverified **skepticism** is as ungrounded as unverified **credulity**. Flagging
 
 ## Relation
 - Extends the read-before-quoting discipline from quotes to judgments.
+- [oracle-craft](../oracle-craft/SKILL.md) is the build-side sibling: this skill says read the thing, that one says how to build a check that reads it and can actually fail.
 - The same discipline can be built into automated pipelines as a hard gate: no verdict ships until the evidence of actually reading the artifact is attached.
 - Sibling of the full-context-shepherd lesson and the critic architecture.
