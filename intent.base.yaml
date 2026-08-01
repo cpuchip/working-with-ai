@@ -1,10 +1,10 @@
 # Intent — BASE
 #
 # The root values shared across every space in the workspace. Each space narrows
-# or extends these; none contradicts them. The full personal intent
-# (private-workspace/intent.yaml) is unchanged — it now extends this base.
+# or extends these; none contradicts them. A space's own intent file extends
+# this base without weakening it.
 #
-# Distilled 2026-07-11 from the root intent.yaml (2026-01).
+# Distilled 2026-07-11.
 
 purpose: >
   Do honest, deep work in collaboration between a human — who brings agency,
