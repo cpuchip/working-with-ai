@@ -8,6 +8,11 @@ Forty-seven skills, two agents, and a bilateral covenant. Most of them were paid
 for by a specific failure — several of the newest by failures inside a single
 week — and the six adapted from other people's work say so on their own front page.
 
+> **Sibling kit:** [ai-jumpstart](https://github.com/cpuchip/ai-jumpstart) is the
+> harness-agnostic on-ramp — point *any* capable model (Claude, GPT, Gemini) at it
+> and it sets up the same working discipline from zero. This repo is the deeper,
+> Claude-Code-native pack. Start there if you're new; come here for the full kit.
+
 ## Why a skills pack
 
 Two honest framings, because a pack of craft files invites two fair objections.
