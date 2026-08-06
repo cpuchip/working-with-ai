@@ -134,6 +134,10 @@ The instruments, and how to read the green they hand you.
 - [foreman](skills/foreman/SKILL.md) — the boss never implements: specs,
   dispatch, the audition oracle for hiring seats, and a build oracle at the end of
   the merge train.
+- [gauntlet](skills/gauntlet/SKILL.md) — the polish loop with rails: worker+critic
+  pairs iterating an existing MVP against a bar of floor+reference+axes, under a
+  published budget and cut order, closed by a seam pass. Foreman builds; gauntlet
+  polishes.
 - [own-the-seam](skills/own-the-seam/SKILL.md) — the gap between two spheres
   belongs to nobody by construction, so name its owner out loud at the split.
 - [room-norms](skills/room-norms/SKILL.md) — five norms for a shared agent
