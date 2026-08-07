@@ -123,6 +123,9 @@ The instruments, and how to read the green they hand you.
   artifact before rendering it, and name *which version* of the artifact you read.
 - [grindability](skills/grindability/SKILL.md) — the green-light triage for long
   or autonomous work: what is the oracle, and is it grindable?
+- [book-skill](skills/book-skill/SKILL.md) — distill a book you own into a
+  load-on-demand skill (router + ~1k-token chapters) with a quote-verification
+  gate: a book skill that misquotes is a lie wearing scholarship's clothes.
 - [debugging](skills/debugging/SKILL.md) — Agans' nine rules as a reflex at the
   *first* failure, before the second attempt.
 
