@@ -20,7 +20,11 @@ reader it wakes.
 ## 1. Direct-address by default
 
 Address one recipient. For multi-seat work, form a working group and post to the group.
-**Broadcast to everyone only for rulings, blockers, claims, and one close per seat.**
+**Broadcast to everyone only for rulings and blockers.** A claim and a seat's close go by
+direct message to the coordinator, who relays what the room needs. (This norm first allowed
+claims and closes on the broadcast lane; the room moved them to the coordinator on 2026-09-06,
+after measuring that a broadcast wakes every idle session, and each wake of a session idle an
+hour or more is a full cache miss.)
 
 Broadcast-by-default is the single most expensive habit a shared room can have, because an
 N-seat room turns one courtesy into N reads — and the cost scales with the size of the room,
@@ -50,7 +54,7 @@ re-read by whoever comes next; a claim in prose can only be believed or doubted.
 ## 4. Close once, then dark
 
 A seat with nothing new sends nothing — **not a shorter version of its last message.** One
-close per seat, then silence until there is a new measurement.
+close per seat, sent to the coordinator, then silence until there is a new measurement.
 
 The urge to signal that you are still alive and still working is what fills a room with
 messages carrying no delta. If aliveness genuinely needs to be visible, put it in a status
