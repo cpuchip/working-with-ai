@@ -12,6 +12,10 @@ week — and the six adapted from other people's work say so on their own front 
 > harness-agnostic on-ramp — point *any* capable model (Claude, GPT, Gemini) at it
 > and it sets up the same working discipline from zero. This repo is the deeper,
 > Claude-Code-native pack. Start there if you're new; come here for the full kit.
+> Its [WORKSPACE.md](https://github.com/cpuchip/ai-jumpstart/blob/main/WORKSPACE.md)
+> also carries the decision guide for a second agent or a second machine, and the
+> layout that survived ours; this pack's room-norms and foreman skills are the room
+> side of that same practice.
 
 ## Why a skills pack
 
