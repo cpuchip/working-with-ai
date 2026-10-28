@@ -4,7 +4,7 @@ A shareable, genericized toolkit for collaborating with AI coding agents — the
 *method* behind a large body of human-AI work, offered as a template. Installable
 as a Claude Code plugin.
 
-Forty-seven skills, two agents, and a bilateral covenant. Most of them were paid
+Forty-eight skills, two agents, and a bilateral covenant. Most of them were paid
 for by a specific failure — several of the newest by failures inside a single
 week — and the six adapted from other people's work say so on their own front page.
 
@@ -125,6 +125,10 @@ The instruments, and how to read the green they hand you.
   clothes.
 - [study-it-out](skills/study-it-out/SKILL.md) — ground the verdict in the
   artifact before rendering it, and name *which version* of the artifact you read.
+- [goldfish-review](skills/goldfish-review/SKILL.md): blind design review before the
+  build (a zoom-out reader, a paraphrase test, critics by axis, each in a context that
+  never saw the conversation) and the drift sweep after it. Borrowed from Google's
+  Elephant-Goldfish Model, with the pack's rails.
 - [grindability](skills/grindability/SKILL.md) — the green-light triage for long
   or autonomous work: what is the oracle, and is it grindable?
 - [book-skill](skills/book-skill/SKILL.md) — distill a book you own into a
@@ -253,7 +257,11 @@ and a `PROVENANCE.md` naming the source, the date, and exactly what was changed 
 adapted from Matt Pocock's skill of the same name
 ([github.com/mattpocock/skills](https://github.com/mattpocock/skills), MIT);
 [three-hazards](skills/three-hazards/SKILL.md) borrows its three named hazards
-from Addy Osmani's talk, cited inline throughout.
+from Addy Osmani's talk, cited inline throughout;
+[goldfish-review](skills/goldfish-review/SKILL.md) borrows its review stages and drift
+sweep from Google's Elephant-Goldfish Model
+([github.com/google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model),
+Apache-2.0), credited on its front page.
 
 ## Provenance
 

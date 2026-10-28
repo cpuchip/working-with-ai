@@ -12,7 +12,7 @@
       "source": "./",
       "displayName": "Working with AI",
       "description": "Skills, agent patterns, and a bilateral covenant template for collaborating with AI agents: the method behind the work, offered as a template.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": {
         "name": "cpuchip"
       },
